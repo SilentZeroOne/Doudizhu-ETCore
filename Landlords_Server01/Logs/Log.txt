@@ -1,0 +1,24 @@
+2020-04-21 02:16:47.8768 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2020-04-21 04:27:39.8397 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-02-04 18:30:36.0308   (Program.cs:18) System.IO.FileNotFoundException: Could not find file 'D:\UnityProject\Landlords_Client01\Landlords_Server01\Bin\Hotfix.dll'.
+File name: 'D:\UnityProject\Landlords_Client01\Landlords_Server01\Bin\Hotfix.dll'
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.IO.File.ReadAllBytes(String path)
+   at ETModel.DllHelper.GetHotfixAssembly() in D:\UnityProject\Landlords_Client01\Landlords_Server01\Server\ET.Core\Base\Helper\DllHelper.cs:line 10
+   at App.Program.Main(String[] args) in D:\UnityProject\Landlords_Client01\Landlords_Server01\Server\App\Program.cs:line 18
+2021-02-05 17:11:26.4151 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-02-05 17:11:32.0709 AllServer 0001 (Session.cs:142) { "_t" : "C2G_TestMessage", "RpcId" : 1, "Info" : "==>>服务端的朋友,你好!收到请回答" }
+2021-02-07 16:03:31.3943 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-02-07 16:03:37.1080 AllServer 0001 (Session.cs:142) { "_t" : "C2G_TestMessage", "RpcId" : 1, "Info" : "==>>服务端的朋友,你好!收到请回答" }
+2021-02-07 16:04:41.8961 AllServer 0001 (Session.cs:142) { "_t" : "C2G_TestMessage", "RpcId" : 1, "Info" : "==>>服务端的朋友,你好!收到请回答" }
+2021-02-07 17:11:22.1914 AllServer 0001 (Session.cs:142) { "_t" : "C2G_TestMessage", "RpcId" : 1, "Info" : "==>>服务端的朋友,你好!收到请回答" }
+2021-02-07 17:14:16.6446 AllServer 0001 (Session.cs:142) { "_t" : "C2G_TestMessage", "RpcId" : 1, "Info" : "==>>服务端的朋友,你好!收到请回答" }
+2021-05-27 15:44:46.4434 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-05-27 15:48:33.7544 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-05-27 15:48:42.9925 AllServer 0001 (Session.cs:142) { "_t" : "C2G_TestMessage", "RpcId" : 1, "Info" : "==>>服务端的朋友,你好!收到请回答" }
+2021-05-27 16:21:20.6297 AllServer 0001 (Program.cs:36) server start........................ 1 AllServer
+2021-05-27 16:21:33.3687 AllServer 0001 (Session.cs:142) { "_t" : "C2G_TestMessage", "RpcId" : 1, "Info" : "==>>服务端的朋友,你好!收到请回答" }
+2021-05-27 16:21:33.4047 AllServer 0001 (Session.cs:142) { "_t" : "C2G_MyMessage", "RpcId" : 2, "MyInfo" : "==>>Fuck you" }

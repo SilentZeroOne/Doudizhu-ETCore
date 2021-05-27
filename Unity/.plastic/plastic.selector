@@ -1,0 +1,4 @@
+repository "斗地主@ssl://aoizero@sh03-plasticscm.unity.cn:8787"
+  path "/"
+    smartbranch "/main/solewa" 
+     

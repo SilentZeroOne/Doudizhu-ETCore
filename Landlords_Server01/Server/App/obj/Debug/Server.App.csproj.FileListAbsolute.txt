@@ -1,0 +1,17 @@
+D:\UnityProject\Landlords_Client01\Landlords_Server01\Bin\libkcp.dylib
+D:\UnityProject\Landlords_Client01\Landlords_Server01\Bin\libkcp.so
+D:\UnityProject\Landlords_Client01\Landlords_Server01\Bin\NLog.config
+D:\UnityProject\Landlords_Client01\Landlords_Server01\Bin\App.dll.config
+D:\UnityProject\Landlords_Client01\Landlords_Server01\Bin\App.deps.json
+D:\UnityProject\Landlords_Client01\Landlords_Server01\Bin\App.runtimeconfig.json
+D:\UnityProject\Landlords_Client01\Landlords_Server01\Bin\App.runtimeconfig.dev.json
+D:\UnityProject\Landlords_Client01\Landlords_Server01\Bin\App.dll
+D:\UnityProject\Landlords_Client01\Landlords_Server01\Bin\App.pdb
+D:\UnityProject\Landlords_Client01\Landlords_Server01\Server\App\obj\Debug\Server.App.csprojAssemblyReference.cache
+D:\UnityProject\Landlords_Client01\Landlords_Server01\Server\App\obj\Debug\Server.App.AssemblyInfoInputs.cache
+D:\UnityProject\Landlords_Client01\Landlords_Server01\Server\App\obj\Debug\Server.App.AssemblyInfo.cs
+D:\UnityProject\Landlords_Client01\Landlords_Server01\Server\App\obj\Debug\Server.App.csproj.CoreCompileInputs.cache
+D:\UnityProject\Landlords_Client01\Landlords_Server01\Server\App\obj\Debug\Server.App.csproj.CopyComplete
+D:\UnityProject\Landlords_Client01\Landlords_Server01\Server\App\obj\Debug\App.dll
+D:\UnityProject\Landlords_Client01\Landlords_Server01\Server\App\obj\Debug\App.pdb
+D:\UnityProject\Landlords_Client01\Landlords_Server01\Server\App\obj\Debug\Server.App.genruntimeconfig.cache
