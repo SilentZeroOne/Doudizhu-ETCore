@@ -34,6 +34,7 @@ namespace ETModel
 				TestRoom room = ComponentFactory.Create<TestRoom>();
 				var timeTest = room.AddComponent<TimeTestComponent>();
 				timeTest.Run(Typebehaviour.Waiting,5000);
+				timeTest.Run(Typebehaviour.RandTarget);
 				
 
 				Game.Scene.GetComponent<ResourcesComponent>().LoadBundle("config.unity3d");
