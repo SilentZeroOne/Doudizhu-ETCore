@@ -199,11 +199,11 @@
      <Compile Include="Assets\ET.Core\Component\Config\HttpConfig.cs" />
      <Compile Include="Assets\ET.Core\Module\Numeric\NumericWatcherAttribute.cs" />
      <Compile Include="Assets\ET.Core\Module\Message\Network\Circularbuffer.cs" />
+     <Compile Include="Assets\ET.Core\Base\Async\MoveNextRunner.cs" />
      <Compile Include="Assets\ET.Core\Base\Helper\MongoHelper.cs" />
      <Compile Include="Assets\ET.Core\Base\Object\EventProxy.cs" />
      <Compile Include="Assets\ET.Core\Base\UnityEngine\Vector3.cs" />
      <Compile Include="Assets\ET.Core\Module\Config\ACategory.cs" />
-     <Compile Include="Assets\ET.Core\Base\Async\MoveNextRunner.cs" />
      <Compile Include="Assets\ET.Core\Module\ActorLocation\Location.cs" />
      <Compile Include="Assets\ET.Core\Module\Message\LandlordsOuterErrorCode.cs" />
      <Compile Include="Assets\ET.Core\Module\Message\RpcException.cs" />
