@@ -52,6 +52,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Model\Test\TestRoom.cs" />
+     <Compile Include="Assets\Model\Test\RandTargetTimeBehaviour.cs" />
      <Compile Include="Assets\Model\Landlords\LandUI\LandLoginFactory.cs" />
      <Compile Include="Assets\Model\Module\FairyGUI\FUIWindowComponent.cs" />
      <Compile Include="Assets\Model\Module\FairyGUI\FUIPackageComponent.cs" />
@@ -84,10 +86,13 @@
      <Compile Include="Assets\Model\Other\ReferenceCollector.cs" />
      <Compile Include="Assets\Model\Module\AssetsBundle\VersionConfig.cs" />
      <Compile Include="Assets\Model\Landlords\LandUI\LandLoginComponent.cs" />
+     <Compile Include="Assets\Model\Test\ITimeBehaviour.cs" />
      <Compile Include="Assets\Model\Module\Message\NetOuterComponentSystem.cs" />
      <Compile Include="Assets\Model\Module\UI\UIType.cs" />
      <Compile Include="Assets\Model\Module\FairyGUI\FUIStackComponent.cs" />
+     <Compile Include="Assets\Model\Test\WaitingTimeBehaviour.cs" />
      <Compile Include="Assets\Model\Other\GizmosDebug.cs" />
+     <Compile Include="Assets\Model\Test\TimeTestComponent.cs" />
      <Compile Include="Assets\Model\Helper\PathHelper.cs" />
      <Compile Include="Assets\Model\Module\UI\UI.cs" />
      <Compile Include="Assets\Model\Helper\PositionHelper.cs" />
@@ -96,10 +101,6 @@
      <Compile Include="Assets\Model\Helper\BundleHelper.cs" />
      <Compile Include="Assets\Model\Module\AssetsBundle\AssetsBundleLoaderAsync.cs" />
      <Compile Include="Assets\Model\Module\FairyGUI\GWindow.cs" />
-     <Compile Include="Assets\Model\Test\TimeTestComponent.cs" />
-     <Compile Include="Assets\Model\Test\TestRoom.cs" />
-     <Compile Include="Assets\Model\Test\ITimeBehaviour.cs" />
-     <Compile Include="Assets\Model\Test\WaitingTimeBehaviour.cs" />
      <None Include="Assets\Model\Unity.Model.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>D:/Software/UnityHub/2020.3.0f1c1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -335,29 +336,11 @@
  <Reference Include="Unity.Analytics.Editor">
  <HintPath>D:/UnityProject/Landlords_Client01/Unity/Library/PackageCache/com.unity.analytics@3.5.3/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
- <Reference Include="Antlr3.RuntimePlastic">
- <HintPath>D:/UnityProject/Landlords_Client01/Unity/Library/PackageCache/com.unity.plasticscm-cn@1.1.5-preview/Lib/Editor/Antlr3.RuntimePlastic.dll</HintPath>
- </Reference>
- <Reference Include="antlr.runtimePlastic">
- <HintPath>D:/UnityProject/Landlords_Client01/Unity/Library/PackageCache/com.unity.plasticscm-cn@1.1.5-preview/Lib/Editor/antlr.runtimePlastic.dll</HintPath>
- </Reference>
- <Reference Include="Newtonsoft.Json.Net20Plastic">
- <HintPath>D:/UnityProject/Landlords_Client01/Unity/Library/PackageCache/com.unity.plasticscm-cn@1.1.5-preview/Lib/Editor/Newtonsoft.Json.Net20Plastic.dll</HintPath>
- </Reference>
- <Reference Include="log4netPlastic">
- <HintPath>D:/UnityProject/Landlords_Client01/Unity/Library/PackageCache/com.unity.plasticscm-cn@1.1.5-preview/Lib/Editor/log4netPlastic.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Analytics.Tracker">
  <HintPath>D:/UnityProject/Landlords_Client01/Unity/Library/PackageCache/com.unity.analytics@3.5.3/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
- <Reference Include="LibGit2SharpPlastic">
- <HintPath>D:/UnityProject/Landlords_Client01/Unity/Library/PackageCache/com.unity.plasticscm-cn@1.1.5-preview/Lib/Editor/LibGit2SharpPlastic.dll</HintPath>
- </Reference>
  <Reference Include="ICSharpCode.SharpZipLib">
  <HintPath>D:/UnityProject/Landlords_Client01/Unity/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
- </Reference>
- <Reference Include="unityplastic">
- <HintPath>D:/UnityProject/Landlords_Client01/Unity/Library/PackageCache/com.unity.plasticscm-cn@1.1.5-preview/Lib/Editor/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>D:/Software/UnityHub/2020.3.0f1c1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

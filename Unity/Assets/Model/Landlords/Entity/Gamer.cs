@@ -4,6 +4,15 @@ using UnityEngine;
 
 namespace ETModel
 {
+    [ObjectSystem]
+    public class GamerAwakeSystem : AwakeSystem<Gamer,long>
+    {
+        public override void Awake(Gamer self, long a)
+        {
+            self.Awake(a);
+        }
+    }
+    
     public sealed class Gamer : Entity
     {
         public long UserID { get; private set; }

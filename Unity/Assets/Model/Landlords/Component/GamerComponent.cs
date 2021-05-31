@@ -20,6 +20,8 @@ namespace ETModel
 
         private readonly Dictionary<long, Gamer> idGamers = new Dictionary<long, Gamer>();
 
+        public User MyUser;
+
         public void Awake()
         {
             Instance = this;

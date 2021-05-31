@@ -27,14 +27,14 @@ namespace ETModel
 				Game.Scene.AddComponent<TimerComponent>();
 
 				//Test One
-				Game.Scene.AddComponent<OpcodeTestComponent>();
-				//Test two
-				Game.Scene.AddComponent<FrameTestComponent>();
-				//Test Three
-				TestRoom room = ComponentFactory.Create<TestRoom>();
-				var timeTest = room.AddComponent<TimeTestComponent>();
-				timeTest.Run(Typebehaviour.Waiting,5000);
-				timeTest.Run(Typebehaviour.RandTarget);
+				// Game.Scene.AddComponent<OpcodeTestComponent>();
+				// //Test two
+				// Game.Scene.AddComponent<FrameTestComponent>();
+				// //Test Three
+				// TestRoom room = ComponentFactory.Create<TestRoom>();
+				// var timeTest = room.AddComponent<TimeTestComponent>();
+				// timeTest.Run(Typebehaviour.Waiting,5000);
+				// timeTest.Run(Typebehaviour.RandTarget);
 				
 
 				Game.Scene.GetComponent<ResourcesComponent>().LoadBundle("config.unity3d");
@@ -47,9 +47,11 @@ namespace ETModel
 
 				//UI
 				Game.Scene.AddComponent<UIComponent>();
-
+				
 				//Gamer
 				Game.Scene.AddComponent<GamerComponent>();
+				
+				Game.EventSystem.Run(UIEventType.LandInitSceneStart);
 
 				//消息分发组件
 				Game.Scene.AddComponent<MessageDispatcherComponent>();
@@ -59,7 +61,7 @@ namespace ETModel
 				Game.Scene.AddComponent<OpcodeTypeComponent>();
 				var netOuter = Game.Scene.AddComponent<NetOuterComponent>();
 
-				Game.EventSystem.Run(UIEventType.LandInitSceneStart);
+				
 
 				//测试发送给服务端一条文本消息
 				Session session = netOuter.Create(GlobalConfigComponent.Instance.GlobalProto.Address);

@@ -22,6 +22,12 @@ namespace ETModel
 	[Message(HotfixOpcode.R2C_Login)]
 	public partial class R2C_Login : IResponse {}
 
+	[Message(HotfixOpcode.C2R_Register)]
+	public partial class C2R_Register : IRequest {}
+
+	[Message(HotfixOpcode.R2C_Register)]
+	public partial class R2C_Register : IResponse {}
+
 	[Message(HotfixOpcode.C2G_LoginGate)]
 	public partial class C2G_LoginGate : IRequest {}
 
@@ -63,15 +69,17 @@ namespace ETModel
 		 public const ushort G2C_MyMessage = 10004;
 		 public const ushort C2R_Login = 10005;
 		 public const ushort R2C_Login = 10006;
-		 public const ushort C2G_LoginGate = 10007;
-		 public const ushort G2C_LoginGate = 10008;
-		 public const ushort G2C_TestHotfixMessage = 10009;
-		 public const ushort C2M_TestActorRequest = 10010;
-		 public const ushort M2C_TestActorResponse = 10011;
-		 public const ushort PlayerInfo = 10012;
-		 public const ushort C2G_PlayerInfo = 10013;
-		 public const ushort G2C_PlayerInfo = 10014;
-		 public const ushort C2G_LoginGate_Req = 10015;
-		 public const ushort G2C_LoginGate_Back = 10016;
+		 public const ushort C2R_Register = 10007;
+		 public const ushort R2C_Register = 10008;
+		 public const ushort C2G_LoginGate = 10009;
+		 public const ushort G2C_LoginGate = 10010;
+		 public const ushort G2C_TestHotfixMessage = 10011;
+		 public const ushort C2M_TestActorRequest = 10012;
+		 public const ushort M2C_TestActorResponse = 10013;
+		 public const ushort PlayerInfo = 10014;
+		 public const ushort C2G_PlayerInfo = 10015;
+		 public const ushort G2C_PlayerInfo = 10016;
+		 public const ushort C2G_LoginGate_Req = 10017;
+		 public const ushort G2C_LoginGate_Back = 10018;
 	}
 }

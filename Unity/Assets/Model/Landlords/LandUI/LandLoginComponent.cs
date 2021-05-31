@@ -38,22 +38,21 @@ namespace ETModel
 
             rc.Get<GameObject>("LoginButton").GetComponent<Button>().onClick.AddListener(LoginBtnOnClick);
             rc.Get<GameObject>("RegisterButton").GetComponent<Button>().onClick.AddListener(RegisterBtnOnClick);
-
-            //Try commit
+            
         }
 
         public void LoginBtnOnClick()
         {
             if (isLogining || IsDisposed) return;
             isLogining = true;
-            LandHelper.Login(account.text, password.text).Coroutine();
+            LandHelper.Login(this, account.text, password.text).Coroutine();
         }
 
         public void RegisterBtnOnClick()
         {
             if (isRegistering || IsDisposed) return;
             isRegistering = true;
-            LandHelper.Register(account.text, password.text).Coroutine();
+            LandHelper.Register(this, account.text, password.text).Coroutine();
         }
     }
 }
