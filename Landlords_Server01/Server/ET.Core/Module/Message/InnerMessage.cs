@@ -330,7 +330,7 @@ namespace ETModel
 	{
 		public int RpcId { get; set; }
 
-		public string Account { get; set; }
+		public long UserID { get; set; }
 
 	}
 
