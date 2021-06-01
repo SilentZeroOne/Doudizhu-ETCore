@@ -31,6 +31,7 @@ namespace ETModel
     {
         public override void Run()
         {
+            Log.Debug("Login in Succeed");
             Game.Scene.GetComponent<UIComponent>().Remove(LandUIType.LandLogin);
         }
     }

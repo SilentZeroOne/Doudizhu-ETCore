@@ -77,7 +77,6 @@ namespace App
 				// manager server组件，用来管理其它进程使用
 				Game.Scene.AddComponent<AppManagerComponent>();
 				Game.Scene.AddComponent<RealmGateAddressComponent>();
-				Game.Scene.AddComponent<GateSessionKeyComponent>();
 				Game.Scene.AddComponent<PlayerComponent>();
 				Game.Scene.AddComponent<UnitComponent>();
 
